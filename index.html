@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Vue.js Import External JSON</title>
+       
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Monoton&display=swap" rel="stylesheet">
+
+ <style>
+  ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  }
+  li {
+  display:inline-block;
+    }
+           
+  img {
+  pointer-events: none;
+  max-width:100%;
+     }
+           
+  .holder {
+  width:300px;
+  height:400px;
+ overflow:hidden;
+border:4px dashed black;
+            }
+            
+ .holder ul {
+ width:2000px;
+padding:0 300px;
+background:lightblue;
+          
+position:relative;
+                left:0;
+            }
+            .holder li {
+                 width:300px;   
+            }
+            body{
+              background-color: azure;
+             
+            }
+            h1{
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+  color: red;
+  animation-name: animation;
+  animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+p{
+  font-family: 'Bangers', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+@keyframes animation {
+  from {color: dodgerblue;}
+  to {color: blue;}
+  to {color: orange;}
+}
+
+        </style>
+        
+
+  </head>
+
+  <body> 
+   <div id="myApp">
+   <h1>{{ message1 }}</h1>
+  <p>{{ message2 }}</p>
+
+  <div class="holder">
+  <ul v-swipeleft="onSwipeLeft" v-swiperight="onSwipeRight">
+ <li v-for="person in people">
+ <a v-bind:href="person.link">
+  {{ person.firstname  }}
+  </a>
+
+  <br>
+
+ <img v-bind:src="'image/'+person.image" v-bind:alt="person.firstname" >
+
+  <h5>{{person.stuff}}</h5>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+       
+      <script src="script.js"></script> 
+        
+    </body>
+</html>

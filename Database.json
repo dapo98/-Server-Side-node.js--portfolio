@@ -1,0 +1,71 @@
+  {
+    "projects": [
+    {
+        "Title":"JavaScript core",
+        "link":"https://cs50c-week04-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week4.png",
+        "Description": "Introduction to objects in a browser"
+    },
+    {
+        "Title":"jQuery library",
+        "link":"https://cs50c-week05-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week5.png",
+        "description": "Introduction to jQuery libraries"
+    },
+    {
+        "Title":"Plugins",
+        "link":"https://cs50c-week06-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week6.png",
+        "Description": "Exploring jQuery plugins"
+    },
+    {
+        "Title":"Plugins",
+        "link":"https://cs50c-week07-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week7.png",
+        "description": "Responsive jQuery libraries continued"
+    },
+    {
+        "Title":"Map Visualization",
+        "link":"https://cs50c-week08-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week8.png",
+        "description": "Introduction map visualizations"
+    },
+    {
+        "Title":"AJAX",
+        "link":"https://cs50c-week09-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week9.png",
+        "description": "Introduction to AJAX & JSON"
+    },
+    
+    {
+        "Title":"Data Visualizations",
+        "link":"https://cs50c-week11-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week11.png",
+        "description": "Getting started with data visualizations"
+    },
+    {
+        "Title":"Data visualizations",
+        "link":"https://cs50c-week12-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week12.png",
+        "description": "Data visualization continuation"
+    },
+    {
+        "Title":"Game development",
+        "link":"https://cs50c-week13-dapobello.srjcethanwilde.repl.co/part10.html",
+        "image":"image/week13.png",
+        "description": "Browser-based Game development part 1"
+    },
+    {
+        "Title":"Game development",
+        "link":"https://cs50c-week14-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week14.png",
+        "description": "Browser-based game development part 2"
+    },
+    {
+        "Title":"Vue.js",
+        "link":"https://cs50c-week15-dapobello.srjcethanwilde.repl.co/",
+        "image":"image/week15.png",
+        "description": "Building mobile apps"
+    }
+    ]
+  }
